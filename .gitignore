@@ -1,0 +1,11 @@
+# Ignore build directories
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore other system files
+*.DS_Store

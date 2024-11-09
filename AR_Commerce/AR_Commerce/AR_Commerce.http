@@ -1,0 +1,6 @@
+@AR_Commerce_HostAddress = http://localhost:5170
+
+GET {{AR_Commerce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
