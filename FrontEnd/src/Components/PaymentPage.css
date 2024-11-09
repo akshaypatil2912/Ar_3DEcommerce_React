@@ -1,0 +1,41 @@
+/* PaymentPage.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.payment-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.payment-title {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.paypal-button-container {
+  margin-top: 20px;
+}
+
+/* Style the PayPal buttons (if custom styles are needed) */
+.paypal-button-container .paypal-button {
+  border-radius: 5px; /* Rounded corners for buttons */
+  transition: transform 0.2s;
+}
+
+.paypal-button-container .paypal-button:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}

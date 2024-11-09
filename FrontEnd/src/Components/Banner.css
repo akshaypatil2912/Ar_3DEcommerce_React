@@ -1,0 +1,76 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 250px;
+  background: linear-gradient(90deg, #3a8bcd, #6bb1ff);
+  margin-top: 2px;
+  overflow: hidden;
+  position: relative;
+
+ 
+}
+
+.banner-text {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+
+}
+
+.banner-text h1 {
+  font-size: 36px;
+}
+
+.banner-text p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.banner-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.shop-now:hover {
+  background-color: #e64a19;
+}
+
+.shop-now {
+  background-color: #ff7e7e;
+  padding: 10px 20px;
+  color: white;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.find-more {
+  background: transparent;
+
+  color: #fff;
+
+  border: 2px solid #fff;
+}
+
+
+.banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.image-container {
+  
+  overflow: auto; /* Enables scrolling */
+}

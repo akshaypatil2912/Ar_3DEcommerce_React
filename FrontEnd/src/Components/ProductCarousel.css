@@ -1,0 +1,32 @@
+/* Carousel Container */
+.carousel-container {
+  padding: 120px; /* Add space around carousel */
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+}
+
+/* Product Carousel */
+.product-carousel {
+  max-width: 80%; /* Adjust to fit your layout */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  overflow: hidden;
+}
+
+/* Carousel Image Styling */
+.carousel-image {
+  height: 450px; /* Control image height */
+  object-fit: cover; /* Maintain aspect ratio */
+  width: 100%;
+}
+
+/* Legend Styling */
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  border-radius: 5px; /* Rounded corners on overlay */
+  padding: 8px 12px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em; /* Larger text */
+}
