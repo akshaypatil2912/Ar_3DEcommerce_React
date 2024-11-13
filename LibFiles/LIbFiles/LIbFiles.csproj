@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <OutputPath>$(SolutionDir)out/LIbFiles/</OutputPath>
+	  <AssemblyName>LIbFiles_App</AssemblyName>
 
   </PropertyGroup>
 
