@@ -6,17 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AR_AuthorizationUser/1.0.0": {
+      "LIbFiles_App/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.16",
+          "AR_AuthorizationUser_App": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.16",
-          "MySql.Data": "8.0.33",
-          "Newtonsoft.Json": "13.0.3",
-          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "AR_AuthorizationUser_App.Reference": "1.0.0.0"
         },
         "runtime": {
-          "AR_AuthorizationUser.dll": {}
+          "LIbFiles_App.dll": {}
         }
       },
       "Google.Protobuf/3.21.9": {
@@ -592,11 +589,35 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "AR_AuthorizationUser_App/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.16",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "MySql.Data": "8.0.33",
+          "Newtonsoft.Json": "13.0.3",
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "runtime": {
+          "AR_AuthorizationUser_App.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
+        }
+      },
+      "AR_AuthorizationUser_App.Reference/1.0.0.0": {
+        "runtime": {
+          "AR_AuthorizationUser_App.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
   "libraries": {
-    "AR_AuthorizationUser/1.0.0": {
+    "LIbFiles_App/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1041,6 +1062,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "AR_AuthorizationUser_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AR_AuthorizationUser_App.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
