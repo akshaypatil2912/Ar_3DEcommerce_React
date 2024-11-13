@@ -10,6 +10,7 @@
 
   <ItemGroup>
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+	  <ProjectReference Include="..\..\AR_AuthorizationUser\AR_AuthorizationUser\AR_AuthorizationUser.csproj" />
 
   </ItemGroup>
 
