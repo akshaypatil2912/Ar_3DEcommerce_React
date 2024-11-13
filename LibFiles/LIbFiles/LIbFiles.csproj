@@ -13,8 +13,4 @@
 
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\AR_AuthorizationUser\AR_AuthorizationUser.csproj" />
-  </ItemGroup>
-
 </Project>
