@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AR_AuthorizationUser_App/1.0.0": {
+      "AR_AuthorizationUser/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.16",
           "Microsoft.EntityFrameworkCore": "6.0.16",
@@ -16,7 +16,7 @@
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "AR_AuthorizationUser_App.dll": {}
+          "AR_AuthorizationUser.dll": {}
         }
       },
       "Google.Protobuf/3.21.9": {
@@ -596,7 +596,7 @@
     }
   },
   "libraries": {
-    "AR_AuthorizationUser_App/1.0.0": {
+    "AR_AuthorizationUser/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
