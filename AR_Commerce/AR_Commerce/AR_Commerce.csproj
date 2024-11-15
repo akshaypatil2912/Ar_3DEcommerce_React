@@ -4,8 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <OutputPath>$(SolutionDir)out/AR_Commerce/</OutputPath>
-
   </PropertyGroup>
 
   <ItemGroup>
